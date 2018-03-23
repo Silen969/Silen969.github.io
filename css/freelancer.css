@@ -183,7 +183,6 @@ header.masthead h2 {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 58px);
-    padding-bottom: 5rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -384,4 +383,11 @@ header .list-icons {
 }
 .list-icons .list-inline-item i:hover {
   color: #bd5d38;
+}
+
+.portfolio-modal .btn-primary {
+  background-image: none;
+}
+.portfolio-modal p {
+  font-size: 20px;
 }
