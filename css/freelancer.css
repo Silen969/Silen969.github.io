@@ -40,7 +40,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #28a745;
 }
 
 hr.star-dark {
@@ -166,7 +166,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 32px);
+  padding-top: calc(6rem + 12px);
   padding-bottom: 2rem;
 }
 
@@ -182,7 +182,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 58px);
+    padding-top: calc(6rem + 38px);
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -320,7 +320,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   background-color: #2C3E50;
   color: #fff;
@@ -378,7 +378,7 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 
-header .list-icons {
+section .list-icons {
   font-size: 3rem;
 }
 .list-icons .list-inline-item i:hover {
@@ -389,5 +389,15 @@ header .list-icons {
   background-image: none;
 }
 .portfolio-modal p {
+  font-size: 20px;
+}
+#skill {
+   padding: 0;
+ }
+
+#about hr.star-light:after {
+  background-color: #18BC9C;
+}
+#about li {
   font-size: 20px;
 }
